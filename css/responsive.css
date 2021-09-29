@@ -1,0 +1,84 @@
+    @media only screen and (min-width: 568px) {}
+    
+    @media only screen and (min-width: 768px) {
+        #box-content {
+            transform: scale(0.8);
+            margin: 0px;
+        }
+        #monthlybox {
+            flex-direction: column;
+            align-items: center;
+        }
+        #annualybox {
+            flex-direction: column;
+            align-items: center;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        h3 {
+            font-size: 21px;
+        }
+        span {
+            font-size: 28px;
+        }
+        ul {
+            font-size: 15px;
+        }
+        .btn-support {
+            font-size: 20px;
+        }
+    }
+    
+    @media only screen and (min-width: 992px) {
+        #box-content {
+            transform: scale(0.8);
+            margin: 0px;
+        }
+        #monthlybox {
+            padding: 0px 0px 0px 0px;
+        }
+        #annualybox {
+            padding: 0px 0px 0px 0px;
+        }
+        #boxbug {
+            padding: 10px 10px 10px 10px;
+        }
+        .box {
+            transform: scale(0.7);
+        }
+        #monthlybox {
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        #annualybox {
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        section {
+            transform: scale(0.9);
+        }
+    }
+    
+    @media only screen and (min-width: 1200px) {
+        #box-content {
+            transform: scale(0.8);
+        }
+        section {
+            transform: scale(0.9)
+        }
+        .colums-price {
+            transform: scale(0.9)
+        }
+        .box {
+            transform: scale(0.8);
+        }
+        #monthlybox {
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        #annualybox {
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+    }

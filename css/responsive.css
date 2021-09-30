@@ -93,6 +93,9 @@
     .box {
         margin-top: 10px;
     }
+    .title {
+        font-size: 30px !important;
+    }
 }
 
 @media only screen and (min-width: 568px) {
@@ -124,6 +127,9 @@
     }
     .box {
         margin-top: 10px;
+    }
+    .title {
+        font-size: 40px !important;
     }
 }
 
@@ -157,6 +163,9 @@
     .box {
         margin-top: 10px;
     }
+    .title {
+        font-size: 50px !important;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -183,6 +192,9 @@
     li {
         font-size: 15px !important;
     }
+    .title {
+        font-size: 50px !important;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -194,6 +206,9 @@
     }
     li {
         font-size: 20px;
+    }
+    .title {
+        font-size: 50px !important;
     }
 }
 
@@ -226,5 +241,8 @@
     }
     .h3size {
         font-size: 20px !important;
+    }
+    .title {
+        font-size: 50px !important;
     }
 }

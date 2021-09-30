@@ -1,11 +1,92 @@
-/* @media only screen and (min-width: 320px) {}
+@media only screen and (min-width: 320px) {
+    #box-content>section:nth-child(1)>h2 {
+        font-size: 20px;
+    }
+    #monthlybox {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0px 0px 0px;
+    }
+    #annualybox {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0px 0px 0px;
+    }
+    #box-button {
+        transform: scale(0.8);
+    }
+    #boxbug>h3 {
+        font-size: 15px;
+    }
+    .h2size {
+        font-size: 15px;
+    }
+    #box-content {
+        margin: 20px !important;
+    }
+    #boxbug>h2 {
+        font-size: 20px;
+    }
+    #boxbug>h3>span {
+        font-size: 28px;
+    }
+    li {
+        font-size: 15px;
+    }
+    .btn-support {
+        font-size: 20px;
+    }
+    #boxbug {
+        padding: 10px 20px 0px 20px;
+        width: 216px;
+    }
+}
 
-@media only screen and (min-width: 375px) {} */
+@media only screen and (min-width: 375px) {
+    #box-content>section:nth-child(1)>h2 {
+        font-size: 20px;
+    }
+    #monthlybox {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0px 0px 0px;
+    }
+    #annualybox {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0px 0px 0px;
+    }
+    #box-button {
+        transform: scale(0.8);
+    }
+    #boxbug>h3 {
+        font-size: 15px;
+    }
+    .h2size {
+        font-size: 15px;
+    }
+    #box-content {
+        margin: 20px !important;
+    }
+    #boxbug>h2 {
+        font-size: 20px;
+    }
+    #boxbug>h3>span {
+        font-size: 28px;
+    }
+    li {
+        font-size: 15px;
+    }
+    .btn-support {
+        font-size: 20px;
+    }
+    #boxbug {
+        padding: 10px 20px 0px 20px;
+        width: 260px;
+    }
+}
 
 @media only screen and (min-width: 568px) {
-    #box-content {
-        margin: 0px;
-    }
     #monthlybox {
         flex-direction: column;
         align-items: center;
@@ -35,10 +116,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-    #box-content {
-        /* transform: scale(0.8); */
-        margin: 0px;
-    }
     #monthlybox {
         flex-direction: column;
         align-items: center;
@@ -68,9 +145,6 @@
 }
 
 @media only screen and (min-width: 992px) {
-    #box-content {
-        margin: 0px;
-    }
     #monthlybox {
         padding: 0px 0px 0px 0px;
     }
@@ -119,5 +193,8 @@
     #annualybox {
         flex-direction: row;
         justify-content: space-evenly;
+    }
+    .box {
+        width: 350px !important;
     }
 }

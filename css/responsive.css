@@ -40,6 +40,9 @@
         padding: 10px 20px 0px 20px;
         width: 216px;
     }
+    .box {
+        margin-top: 10px;
+    }
 }
 
 @media only screen and (min-width: 375px) {
@@ -63,7 +66,10 @@
         font-size: 15px;
     }
     .h2size {
-        font-size: 15px;
+        font-size: 20px;
+    }
+    span {
+        font-size: 48px !important;
     }
     #box-content {
         margin: 20px !important;
@@ -84,6 +90,9 @@
         padding: 10px 20px 0px 20px;
         width: 260px;
     }
+    .box {
+        margin-top: 10px;
+    }
 }
 
 @media only screen and (min-width: 568px) {
@@ -102,7 +111,7 @@
         font-size: 20px;
     }
     span {
-        font-size: 28px;
+        font-size: 48px !important;
     }
     ul {
         font-size: 15px;
@@ -111,7 +120,10 @@
         font-size: 20px;
     }
     #boxbug {
-        padding: 10px 10px 10px 10px;
+        padding: 10px 20px 0px 20px;
+    }
+    .box {
+        margin-top: 10px;
     }
 }
 
@@ -131,7 +143,7 @@
         font-size: 21px;
     }
     span {
-        font-size: 28px;
+        font-size: 48px !important;
     }
     ul {
         font-size: 15px;
@@ -141,6 +153,9 @@
     }
     .btn-support {
         font-size: 20px;
+    }
+    .box {
+        margin-top: 10px;
     }
 }
 
@@ -165,11 +180,20 @@
     section {
         transform: scale(0.9);
     }
+    li {
+        font-size: 15px !important;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
     #boxbug {
         padding: 30px 30px 30px 30px;
+    }
+    .box {
+        width: 230px !important;
+    }
+    li {
+        font-size: 20px;
     }
 }
 
@@ -193,5 +217,14 @@
     }
     .box {
         width: 350px !important;
+    }
+    li {
+        font-size: 25px !important;
+    }
+    span {
+        font-size: 58px !important;
+    }
+    .h3size {
+        font-size: 20px !important;
     }
 }

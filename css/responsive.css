@@ -5,12 +5,12 @@
     #monthlybox {
         flex-direction: column;
         align-items: center;
-        padding: 10px 0px 0px 0px;
+        padding: 10px 0px 10px 0px;
     }
     #annualybox {
         flex-direction: column;
         align-items: center;
-        padding: 10px 0px 0px 0px;
+        padding: 10px 0px 10px 0px;
     }
     #box-button {
         transform: scale(0.8);
@@ -49,12 +49,12 @@
     #monthlybox {
         flex-direction: column;
         align-items: center;
-        padding: 10px 0px 0px 0px;
+        padding: 10px 0px 10px 0px;
     }
     #annualybox {
         flex-direction: column;
         align-items: center;
-        padding: 10px 0px 0px 0px;
+        padding: 10px 0px 10px 0px;
     }
     #box-button {
         transform: scale(0.8);
@@ -153,9 +153,6 @@
     }
     #boxbug {
         padding: 10px 10px 10px 10px;
-    }
-    .box {
-        transform: scale(0.7);
     }
     #monthlybox {
         flex-direction: row;

@@ -11,20 +11,6 @@
      }
  })
 
- //  monthly.click(function() {
- //      $("#monthlybox").slideToggle()
- //      $("#annualybox").slideToggle()
- //      change()
- //  })
-
- //  function change() {
- //      if (monthly.html() == 'Annualy') {
- //          monthly.html('Monthly')
- //      } else {
- //          monthly.html('Annualy')
- //      }
- //  }
-
  let btnsupport = $(".btn-support")
 
  btnsupport.click(function() {

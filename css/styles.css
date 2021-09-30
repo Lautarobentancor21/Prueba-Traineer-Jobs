@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: blue;
+    background-color: rgb(32, 96, 235);
 }
 
 #box-content {
@@ -79,15 +79,18 @@ li {
 }
 
 .btn-support {
+    border: 1px solid black;
     padding: 10px;
     border-radius: 20px;
-    background-color: rgb(0, 255, 42);
+    background-color: rgb(16, 241, 136);
     font-family: inherit;
     font-size: x-large;
 }
 
 .btn-support:hover {
-    background-color: rgb(7, 116, 25);
+    background-color: rgb(0, 161, 86);
+    color: white;
+    cursor: pointer;
 }
 
 h2 {
@@ -107,7 +110,8 @@ span {
 }
 
 i {
-    background-color: rgb(0, 255, 42);
+    background-color: rgb(16, 241, 136);
     padding: 20px;
     border-radius: 57px;
+    border: 1px solid black;
 }
